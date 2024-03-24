@@ -1,0 +1,23 @@
+.scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+  
+}
+
+.actual_data {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 120px;
+    text-align: center;
+    font-style: italic;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}

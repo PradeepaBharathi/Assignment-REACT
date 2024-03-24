@@ -1,0 +1,44 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buckets{
+    display: flex;
+     flex-direction: row; 
+     align-items: center;
+     justify-content: center;
+     gap:3rem;
+     margin-top: 5rem;      
+}
+.bucket1,.bucket2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid black;
+    width: 200px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.btn1,.btn2{
+    width: 90px;
+    margin-left: 60px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.btn-list{
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100px;
+        height: 190px;
+      
+        
+        
+}
