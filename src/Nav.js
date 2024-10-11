@@ -9,6 +9,7 @@ function Nav() {
         <Link to="/scroll">Infinite Scroll</Link>
         <Link to="/transfer">Element Transfer</Link>
         <Link to="/game">Hit Game</Link>
+        <Link to="/infinitesquare">InfiniteSquare</Link>
       </div>
       <div className="text">
         <h1> Click on the options to view the assignment</h1>

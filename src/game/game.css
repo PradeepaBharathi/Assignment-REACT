@@ -28,7 +28,13 @@
 .box.active{
     background-color: #add8e6;
 }
+.hit{
+    background-color: green;
+}
 
+.wrong {
+    background-color: red;
+  }
 .score-card{
     display: flex;
     align-items: center;

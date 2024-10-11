@@ -6,6 +6,7 @@ import Scroll from "./scroll/Scroll";
 
 import Transfer from "./element_transfer/Transfer";
 import Game from "./game/Game";
+import Infinitesquare from "./InfiniteSquare/Infinitesquare";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/scroll" element={<Scroll />}></Route>
           <Route path="/transfer" element={<Transfer />}></Route>
           <Route path="/game" element={<Game />}></Route>
+          <Route path="/infinitesquare" element={<Infinitesquare />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
